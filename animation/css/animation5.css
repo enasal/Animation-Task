@@ -1,0 +1,40 @@
+body{
+	background-color: #000;
+}
+div {
+	background-color: #fff;
+	height:250px; 
+    width:300px;
+    margin-top: 100px;
+   margin-left:500px;
+   text-align: center;
+  
+
+}
+.fa-circle{
+	font-size: 200px;
+	display: inline-block;
+	position: relative;
+	margin-top: 8%;
+	color: #78f5ea;
+}
+
+@keyframes rotate{
+	to{
+		transform:rotate(370deg);
+	}
+}
+
+.fa-circle:hover hr{
+	animation-play-state: paused;
+}
+
+hr{
+	width: 50px;
+	position: absolute;
+	left: 100px;
+	border: 5px solid #78f5ea;
+	display: inline-block;
+	animation: rotate 1s  linear infinite;
+    transform-origin:.5%;
+}

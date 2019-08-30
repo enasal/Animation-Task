@@ -1,0 +1,76 @@
+.light{
+	 top:-100px;
+	display:inline-block;
+	height:20px;
+	width:20px;
+	background-color:lightblue;
+	border-radius: 50%;
+	animation-name:one;
+	animation-duration:0.8s;
+	position:relative;
+
+}
+.red{
+  top:-100px;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  animation-name: one;
+  animation-duration: 1.1s;
+  }
+.blue{
+	 top:-100px;
+	display:inline-block;
+	height:20px;
+	width:20px;
+	background-color:blue;
+	border-radius: 50%;
+	animation-name:one;
+	animation-duration:1s;
+	position:relative;
+}
+.yellow{
+	 top:-100px;
+	display:inline-block;
+	height:20px;
+	width:20px;
+	background-color:yellow;
+	border-radius: 50%;
+	animation-name:one;
+	animation-duration:0.9s;
+	position:relative;
+}
+.purple{
+	 top:-100px;
+	display:inline-block;
+	height:20px;
+	width:20px;
+	background-color:purple;
+	border-radius: 50%;
+	animation-name:one;
+	animation-duration:1s;
+	position:relative;
+}
+.orange{
+	 top:-100px;
+	display:inline-block;
+	height:20px;
+	width:20px;
+	background-color:orange;
+	border-radius: 50%;
+	animation-name:one;
+	animation-duration:1.5s;
+	position:relative;
+}
+
+	@keyframes one {
+  0%   {  top:0px;}
+  20%  {  top:300px;}
+  40%  { top:240px;}
+  60%  { top:300px;}
+  80% {  top:240px;}
+  100% {  top:0px;}
+}
