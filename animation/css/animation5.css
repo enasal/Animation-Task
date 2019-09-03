@@ -16,7 +16,7 @@ div {
 	display: inline-block;
 	position: relative;
 	margin-top: 8%;
-	color: #78f5ea;
+	color: #1fa67a;
 }
 
 @keyframes rotate{
@@ -25,16 +25,17 @@ div {
 	}
 }
 
-.fa-circle:hover hr{
-	animation-play-state: paused;
-}
 
 hr{
 	width: 50px;
 	position: absolute;
 	left: 100px;
-	border: 5px solid #78f5ea;
+	border: 5px solid #1fa67a;
 	display: inline-block;
-	animation: rotate 1s  linear infinite;
+	animation: rotate 3s  linear infinite;
     transform-origin:.5%;
+}
+
+.fa-circle:hover hr{
+	animation-play-state: paused;
 }

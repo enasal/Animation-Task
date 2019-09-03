@@ -17,7 +17,7 @@ body{
 animation: one 3s ease-in-out forwards infinite;
 }
 @keyframes one {
-	10%{
+	0%{
 		transform:scale(1);
 	}
 	20%{

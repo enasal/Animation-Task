@@ -31,20 +31,20 @@ body{
    background-color: red;
    border-radius: 8px;
 }
-@keyframes animate{
+@keyframes one{
   to{
     transform: scale(1.2);
   }
 }
 .div:hover #one{
-      animation-name: animate ;
+      animation-name: one;
       animation-duration: 2s;
       animation-fill-mode: forwards;
       animation-timing-function: ease; 
 
 }  
 .div:hover #two{
-       animation-name: animate ;
+       animation-name: one ;
       animation-duration: 2s;
       animation-timing-function: ease; 
 }    
